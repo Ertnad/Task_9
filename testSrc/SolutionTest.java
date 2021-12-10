@@ -9,8 +9,8 @@ public class SolutionTest {
 
   @Test
   public void testFirst() {
-    List<Integer> input = ArrayAndListUtils.readListFromFile("testFiles/test1.txt");
-    List<Integer> output = ArrayAndListUtils.readListFromFile("testFiles/answer1.txt");
+    List<Integer> input = ArrayAndListUtils.readListFromFile("testSrc/testFiles/test1.txt");
+    List<Integer> output = ArrayAndListUtils.readListFromFile("testSrc/testFiles/answer1.txt");
 
     assert input != null;
     int n = 2;
@@ -20,8 +20,8 @@ public class SolutionTest {
   }
   @Test
   public void testSecond() {
-    List<Integer> input = ArrayAndListUtils.readListFromFile("testFiles/test2.txt");
-    List<Integer> output = ArrayAndListUtils.readListFromFile("testFiles/answer2.txt");
+    List<Integer> input = ArrayAndListUtils.readListFromFile("testSrc/testFiles/test2.txt");
+    List<Integer> output = ArrayAndListUtils.readListFromFile("testSrc/testFiles/answer2.txt");
 
     assert input != null;
     int n = 2;
@@ -31,8 +31,8 @@ public class SolutionTest {
   }
   @Test
   public void testThird() {
-    List<Integer> input = ArrayAndListUtils.readListFromFile("testFiles/test3.txt");
-    List<Integer> output = ArrayAndListUtils.readListFromFile("testFiles/answer3.txt");
+    List<Integer> input = ArrayAndListUtils.readListFromFile("testSrc/testFiles/test3.txt");
+    List<Integer> output = ArrayAndListUtils.readListFromFile("testSrc/testFiles/answer3.txt");
 
     assert input != null;
     int n = 2;
@@ -42,8 +42,8 @@ public class SolutionTest {
   }
   @Test
   public void testFourth() {
-    List<Integer> input = ArrayAndListUtils.readListFromFile("testFiles/test4.txt");
-    List<Integer> output = ArrayAndListUtils.readListFromFile("testFiles/answer4.txt");
+    List<Integer> input = ArrayAndListUtils.readListFromFile("testSrc/testFiles/test4.txt");
+    List<Integer> output = ArrayAndListUtils.readListFromFile("testSrc/testFiles/answer4.txt");
 
     assert input != null;
     int n = 2;
@@ -53,8 +53,8 @@ public class SolutionTest {
   }
   @Test
   public void testFifth() {
-    List<Integer> input = ArrayAndListUtils.readListFromFile("testFiles/test5.txt");
-    List<Integer> output = ArrayAndListUtils.readListFromFile("testFiles/answer5.txt");
+    List<Integer> input = ArrayAndListUtils.readListFromFile("testSrc/testFiles/test5.txt");
+    List<Integer> output = ArrayAndListUtils.readListFromFile("testSrc/testFiles/answer5.txt");
 
     assert input != null;
     int n = 2;
@@ -64,8 +64,8 @@ public class SolutionTest {
   }
   @Test
   public void testSixth() {
-    List<Integer> input = ArrayAndListUtils.readListFromFile("testFiles/test6.txt");
-    List<Integer> output = ArrayAndListUtils.readListFromFile("testFiles/answer6.txt");
+    List<Integer> input = ArrayAndListUtils.readListFromFile("testSrc/testFiles/test6.txt");
+    List<Integer> output = ArrayAndListUtils.readListFromFile("testSrc/testFiles/answer6.txt");
 
     assert input != null;
     int n = 2;
@@ -75,8 +75,8 @@ public class SolutionTest {
   }
   @Test
   public void testSeventh() {
-    List<Integer> input = ArrayAndListUtils.readListFromFile("testFiles/test7.txt");
-    List<Integer> output = ArrayAndListUtils.readListFromFile("testFiles/answer7.txt");
+    List<Integer> input = ArrayAndListUtils.readListFromFile("testSrc/testFiles/test7.txt");
+    List<Integer> output = ArrayAndListUtils.readListFromFile("testSrc/testFiles/answer7.txt");
 
     assert input != null;
     int n = 4;
@@ -86,8 +86,8 @@ public class SolutionTest {
   }
   @Test
   public void testEighth() {
-    List<Integer> input = ArrayAndListUtils.readListFromFile("testFiles/test8.txt");
-    List<Integer> output = ArrayAndListUtils.readListFromFile("testFiles/answer8.txt");
+    List<Integer> input = ArrayAndListUtils.readListFromFile("testSrc/testFiles/test8.txt");
+    List<Integer> output = ArrayAndListUtils.readListFromFile("testSrc/testFiles/answer8.txt");
 
     assert input != null;
     int n = 2;
@@ -97,8 +97,8 @@ public class SolutionTest {
   }
   @Test
   public void testNinth() {
-    List<Integer> input = ArrayAndListUtils.readListFromFile("testFiles/test9.txt");
-    List<Integer> output = ArrayAndListUtils.readListFromFile("testFiles/answer9.txt");
+    List<Integer> input = ArrayAndListUtils.readListFromFile("testSrc/testFiles/test9.txt");
+    List<Integer> output = ArrayAndListUtils.readListFromFile("testSrc/testFiles/answer9.txt");
 
     assert input != null;
     int n = 2;
@@ -108,8 +108,8 @@ public class SolutionTest {
   }
   @Test
   public void testTenth() {
-    List<Integer> input = ArrayAndListUtils.readListFromFile("testFiles/test10.txt");
-    List<Integer> output = ArrayAndListUtils.readListFromFile("testFiles/answer10.txt");
+    List<Integer> input = ArrayAndListUtils.readListFromFile("testSrc/testFiles/test10.txt");
+    List<Integer> output = ArrayAndListUtils.readListFromFile("testSrc/testFiles/answer10.txt");
 
     assert input != null;
     int n = 10;
